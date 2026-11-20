@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Lê Minh Hiếu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__brand">LMH<span>.Potfolio</span></a>
+      <ul class="navbar__links">
+        <li><a href="#gioi-thieu">Giới thiệu</a></li>
+        <li><a href="#ve-toi">Về tôi</a></li>
+        <li><a href="#ky-nang">Kỹ năng</a></li>
+        <li><a href="#du-an">Dự án</a></li>
+        <li><a href="#lien-he">Liên hệ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== NỘI DUNG CHÍNH ===== -->
+  <main>
+
+    <!-- --- Hero (Có ảnh đại diện) --- -->
+    <section id="gioi-thieu" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <span class="hero__badge">Sinh viên CNTT – Đại học Đại Nam</span>
+          <h1>Xin chào, mình là <span class="highlight">Lê Minh Hiếu</span></h1>
+          <p class="hero__desc">
+            Sinh viên năm nhất đam mê lập trình web, phát triển phần mềm và xây dựng những giao diện hiện đại, tối ưu trải nghiệm người dùng.
+          </p>
+          <div class="hero__actions">
+            <a href="#du-an" class="btn btn--primary">Xem dự án</a>
+            <a href="#lien-he" class="btn btn--outline">Liên hệ ngay</a>
+          </div>
+        </div>
+
+        <div class="hero__avatar-wrap">
+          <!-- Thay đường dẫn src bên dưới bằng tên file ảnh của bạn, ví dụ: src="avatar.jpg" -->
+          <img src="lmh.JPG"
+            alt="Ảnh đại diện Lê Minh Hiếu" 
+            class="hero__avatar">
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Về tôi --- -->
+    <section id="ve-toi" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Về tôi</h2>
+        <div class="about__grid">
+          <div class="about__story">
+            <h3>Định hướng nghề nghiệp</h3>
+            <p>
+              Hiện mình đang theo học ngành Công nghệ Thông tin tại Đại học Đại Nam. Mục tiêu của mình là nắm vững nền tảng lập trình web từ giao diện (Frontend) đến hệ thống (Backend) để trở thành một Full-stack Developer trong tương lai.
+            </p>
+          </div>
+          <div class="about__details">
+            <ul class="info-list">
+              <li><span>Họ và tên</span><strong>Lê Minh Hiếu</strong></li>
+              <li><span>Mã sinh viên</span><strong>2071020075</strong></li>
+              <li><span>Quê quán</span><strong>Phú Thọ</strong></li>
+              <li><span>Sở thích</span><strong>Lập trình web, Chơi game, Chơi thể thao</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Kỹ năng --- -->
+    <section id="ky-nang" class="section">
+      <div class="container">
+        <h2 class="section__title">Kỹ năng chuyên môn</h2>
+        <div class="skills__grid">
+          <div class="skill-box">
+            <div class="skill-box__header">
+              <h3>HTML5 &amp; CSS3</h3>
+            </div>
+            <p>Xây dựng bố cục chuẩn ngữ nghĩa, Flexbox/Grid và thiết kế responsive tương thích nhiều màn hình.</p>
+            <span class="skill-tag">Frontend</span>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box__header">
+              <h3>JavaScript Cơ bản</h3>
+            </div>
+            <p>Xử lý sự kiện DOM, kiểm tra dữ liệu biểu mẫu và tạo các tương tác động trên trình duyệt.</p>
+            <span class="skill-tag">Logic</span>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box__header">
+              <h3>Git &amp; GitHub</h3>
+            </div>
+            <p>Quản lý phiên bản mã nguồn, phân nhánh công việc và phối hợp hiệu quả khi làm bài tập nhóm.</p>
+            <span class="skill-tag">Công cụ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Dự án --- -->
+    <section id="du-an" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Dự án tiêu biểu</h2>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__thumb">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Dự án Portfolio V1">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">HTML / CSS</span>
+              <h3>Portfolio V1</h3>
+              <p>Website cá nhân giới thiệu thông tin sinh viên, kỹ năng và các sản phẩm đã thực hiện theo chuẩn responsive.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Dự án Web Quản lý bán hàng">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Web App</span>
+              <h3>Web Quản lý bán hàng</h3>
+              <p>Giao diện hệ thống hỗ trợ theo dõi doanh thu, quản lý danh mục sản phẩm và kiểm soát tồn kho trực tuyến.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb">
+              <img src="https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=600&q=80" alt="Dự án Robot tránh vật cản">
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">IoT / Phần cứng</span>
+              <h3>Robot tránh vật cản</h3>
+              <p>Mô hình xe tự hành ứng dụng vi điều khiển kết hợp cảm biến siêu âm để đo khoảng cách và tự động chuyển hướng.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- --- Liên hệ --- -->
+    <section id="lien-he" class="section">
+      <div class="container">
+        <h2 class="section__title">Liên hệ</h2>
+        <div class="contact__grid">
+
+          <div class="contact-card">
+            <span class="contact-card__icon">📞</span>
+            <h3>Điện thoại</h3>
+            <a href="tel:0981201175" class="contact-link">0981 201 175</a>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card__icon">✉️</span>
+            <h3>Email</h3>
+            <a href="mailto:leminhhieu2628@gmail.com" class="contact-link">leminhhieu2628@gmail.com</a>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card__icon">📍</span>
+            <h3>Địa chỉ</h3>
+            <p>Đại học Đại Nam, Hà Nội</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Lê Minh Hiếu – 2071020075 </p>
+    </div>
+  </footer>
+
+</body>
+</html>
